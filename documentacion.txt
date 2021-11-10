@@ -1,0 +1,29 @@
+--- Agenda de contactos ---
+
+Pregunte al usuario si quiere:
+1- agregar contacto
+2- buscar contacto
+3- editar contacto
+4- eliminar contacto
+
+1) Agregar contacto a la agenda
+
+- Que se pueda agregar nombre, apellido, numero, direccion, email
+- Que nombre, apellido y numero no se puedan dejar en blanco
+- Que no deje repetir nombre, apellido y numero
+- una vez que lo agregue se pueda guardan en la agenda
+
+2) Buscar contactos
+
+- Que se puedan buscar contactos por campo nombre y apellido.
+
+3) Editar contactos
+
+- Que permita buscar contacto
+- Que pueda editar cualquiera de los campos
+- que se pueda guardar, sobreescribiendo datos anteriores
+
+4) Eliminar contacto
+
+- Que se pueda buscar y eliminar el contacto seleccionado
+
