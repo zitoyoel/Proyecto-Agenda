@@ -1,14 +1,32 @@
+import os
+import pathlib
 print('Bienvenido a su agenda de contactos \n1- Agregar contacto \n2- Buscar contacto \n3- Editar contacto \n4- Eliminar contacto')
 
 
 
-# opcion = (input('Seleccione la opcion que desee: '))
+agenda = {}
 
-while True: 
+
+def agregar_contacto(agenda):
+    os.system('cls')
+    print('            AGREGAR CONTACTO')
+    nombre = input('Nombre: ')
+    if agenda.get(nombre):
+        print('El contacto ya existe')
+    else:
+        telefono = input('Telefono: ')
+        email = input('Mail: ')
+        agenda.setdefault(nombre, telefono, email)
+    os.system('cls')
+    print('contacto agregado')
+
+
+
+while True:
     try :
         opcion = int(input("Seleccione la opcion que desee: "))
         if opcion == 1:
-            print('Agregar contacto')
+            agregar_contacto(agenda)
             break
         else:
             if opcion == 2:
@@ -23,8 +41,8 @@ while True:
                         print('Eliminar contacto')
                         break
                     else:
-                        print('No es un numero valido')
-    except ValueError:
+                        print("error")
+    except (ValueError):
         print("No es un dato válido")
 
-
+print(agenda)
