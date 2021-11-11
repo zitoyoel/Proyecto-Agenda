@@ -1,7 +1,7 @@
 # from agregar import agregar_contacto
 from agregar import agregar_contacto
 from agregar import nombre_archivo
-print('Bienvenido a su agenda de contactos \n1- Agregar contacto \n21- Buscar contacto \n3- Editar contacto \n4- Eliminar contacto')
+print('Bienvenido a su agenda de contactos \n1- Agregar contacto \n2- Buscar contacto \n3- Editar contacto \n4- Eliminar contacto')
 
 agenda = []
 
