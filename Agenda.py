@@ -1,9 +1,14 @@
 # from agregar import agregar_contacto
 from agregar import agregar_contacto
 from agregar import nombre_archivo
-print('Bienvenido a su agenda de contactos \n1- Agregar contacto \n21- Buscar contacto \n3- Editar contacto \n4- Eliminar contacto')
+from agregar import agenda
+from listar import listar_directorio
 
-agenda = []
+
+print('Bienvenido a su agenda de contactos \n1- Agregar contacto \n2- Buscar contacto \n3- Editar contacto \n4- Eliminar contacto \n5- Mostrar Agenda')
+
+
+
 
 while True:
     try :
@@ -24,8 +29,10 @@ while True:
                         print('Eliminar contacto')
                         break
                     else:
-                        print("error")
+                        if opcion == 5:
+                            listar_directorio()
+                            break
+                        else:
+                            print("error")
     except (ValueError):
         print("No es un dato válido")
-
-print(agenda)
