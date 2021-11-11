@@ -1,32 +1,15 @@
-import os
-import pathlib
-print('Bienvenido a su agenda de contactos \n1- Agregar contacto \n2- Buscar contacto \n3- Editar contacto \n4- Eliminar contacto')
+# from agregar import agregar_contacto
+from agregar import agregar_contacto
+from agregar import nombre_archivo
+print('Bienvenido a su agenda de contactos \n1- Agregar contacto \n21- Buscar contacto \n3- Editar contacto \n4- Eliminar contacto')
 
-
-
-agenda = {}
-
-
-def agregar_contacto(agenda):
-    os.system('cls')
-    print('            AGREGAR CONTACTO')
-    nombre = input('Nombre: ')
-    if agenda.get(nombre):
-        print('El contacto ya existe')
-    else:
-        telefono = input('Telefono: ')
-        email = input('Mail: ')
-        agenda.setdefault(nombre, telefono, email)
-    os.system('cls')
-    print('contacto agregado')
-
-
+agenda = []
 
 while True:
     try :
         opcion = int(input("Seleccione la opcion que desee: "))
         if opcion == 1:
-            agregar_contacto(agenda)
+            agregar_contacto(agenda, nombre_archivo)
             break
         else:
             if opcion == 2:
