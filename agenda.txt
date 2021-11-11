@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nombre:lea
 telefono:lea
 email:lea
@@ -14,3 +15,17 @@ nombre:lea
 telefono:lea
 email:lea
  
+=======
+nombre:Yoel
+telefono:32434
+email:Yoe@saff
+
+nombre:flor
+telefono:1213
+email:flor@ssad
+
+nombre:yoe
+telefono:32434
+email:yorsad
+
+>>>>>>> 66862a29de3f4e4f5d8aa98b3c6e0e5070a4ecfb
