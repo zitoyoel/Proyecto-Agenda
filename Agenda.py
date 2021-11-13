@@ -39,8 +39,8 @@ def modificar_contacto(nombre):
         print('El nombre no se encuentra en el directorio -no se puede modificar-')
 
 def agregar_contacto(nombre,telefono,email):
-        agenda[nombre]=telefono
-        agenda[nombre]=email
+        agenda[nombre]=[telefono,email]
+        
         diccionario_a_archivo()
 
 

@@ -16,7 +16,7 @@ def agregar_contacto(agenda, nombre_archivo):
         telefono = input('Telefono: ')
         email = input('Mail: ')
     # agenda.setdefault(nombre, (telefono, email))
-  
+
     with open(nombre_archivo, 'a') as archivo:
         archivo.write(f'nombre:{nombre}\ntelefono:{telefono}\nemail:{email}\n\n')
     os.system('cls')

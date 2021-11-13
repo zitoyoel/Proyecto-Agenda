@@ -16,5 +16,5 @@ def archivo_a_diccionario(): #leemos el directorio del archivo de disco
 #un elemento en la lista por cada renglon del txt
     agenda.clear() #Limpiamos el diccionario
     for elemento in lista_de_contactos:
-        agenda[elemento.strip().split(',')[0]]=elemento.strip().split(',')[1]=elemento.strip().split(',')[2]
+        agenda[elemento.strip().split(',')[0]]=elemento.strip().split(',')[1]
     archivo.close()
