@@ -6,16 +6,17 @@ from colorama import init, Fore, Back, Style
 init(autoreset=True)
 
 def menu(): #mostramos el menu de opciones
+    print('')
     print(Fore.MAGENTA+'------------------------')
     print(Fore.MAGENTA+ 'Agenda telefónica')
     print(Fore.MAGENTA+'------------------------')
     print(Fore.WHITE+'')
-    print('1) Listar el directorio telefónico')
-    print('2) Agregar un contacto')
-    print('3) Consultar un número')
-    print('4) Eliminar un contacto')
-    print('5) Modificar un contacto')
-    print('0) Salir')
+    print(Fore.CYAN+'1)' + Fore.WHITE+'Listar el directorio telefónico')
+    print(Fore.CYAN+'2)' + Fore.WHITE+ 'Agregar un contacto')
+    print(Fore.CYAN+'3)' + Fore.WHITE+ 'Consultar un número')
+    print(Fore.CYAN+'4)' + Fore.WHITE+ 'Eliminar un contacto')
+    print(Fore.CYAN+'5)' + Fore.WHITE+ 'Modificar un contacto')
+    print(Fore.RED+'0)' + Fore.WHITE+ 'Salir')
     print('')
     return(input('Ingrese la opción elegida: '))
 
@@ -40,7 +41,6 @@ def modificar_contacto(nombre):
 
 def agregar_contacto(nombre,telefono,email):
         agenda[nombre]=[telefono,email]
-        
         diccionario_a_archivo()
 
 
@@ -55,7 +55,7 @@ def programa():
         elif opcion == '1':
             listar_directorio()
         elif opcion == '2':
-            nombre = input('Ingrese el nombre del contacto: ')
+            nombre = input('\nIngrese el nombre del contacto: ')
             if nombre in agenda.keys():
                 print(Fore.WHITE + Back.RED +'El nombre ya existe')
             else:

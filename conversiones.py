@@ -3,8 +3,8 @@ from listar import agenda
 def diccionario_a_archivo():
     nombre_de_archivo = 'agenda.txt'
     archivo = open(nombre_de_archivo,'w')
-    for contacto,numero,email in agenda.items():
-        archivo.write(f'{contacto} {numero} {email}')
+    for nombre, dato in agenda.items():
+        archivo.write(nombre+','+dato[0]+ ',' + dato[1]+'\n')
     archivo.close()
 
 
