@@ -2,6 +2,9 @@ from listar import agenda
 from listar import listar_directorio
 from buscar import buscar_contacto
 from conversiones import (diccionario_a_archivo, archivo_a_diccionario)
+from eliminar import eliminar_contacto
+from modificar import modificar_contacto
+from agregar import agregar_contacto
 from colorama import init, Fore, Back, Style
 init(autoreset=True)
 
@@ -19,34 +22,6 @@ def menu(): #mostramos el menu de opciones
     print(Fore.RED+'0)' + Fore.WHITE+ 'Salir')
     print('')
     return(input('Ingrese la opción elegida: '))
-
-
-
-def eliminar_contacto(nombre):
-    if nombre in agenda.keys():
-        del agenda[nombre]
-        diccionario_a_archivo()
-        print(Fore.WHITE + Back.GREEN +'Contacto eliminado')
-    else:
-        print(Fore.WHITE + Back.RED +'El nombre no se encuentra en la agenda')
-
-
-def modificar_contacto(nombre):
-    if nombre in agenda.keys():
-        print(nombre, agenda[nombre])
-        nuevo_numero = input('Ingrese el nuevo telefono del contacto: ')
-        nuevo_email = input('Agregue el nuevo email: ')
-        agenda[nombre] = [nuevo_numero, nuevo_email]
-        diccionario_a_archivo()
-        print(Fore.WHITE + Back.GREEN +'Contacto modificado correctamente')
-    else:
-        print(Fore.WHITE + Back.RED +'El nombre no se encuentra en la agenda')
-
-def agregar_contacto(nombre,telefono,email):
-        agenda[nombre]=[telefono,email]
-        print(Fore.WHITE + Back.GREEN +'contacto agregado correctamente')
-        diccionario_a_archivo()
-
 
 def programa():
     archivo_a_diccionario()

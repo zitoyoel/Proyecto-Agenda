@@ -1,26 +1,11 @@
-import os
+from listar import agenda
+from conversiones import diccionario_a_archivo
+from colorama import init, Fore, Back, Style
+init(autoreset=True)
 
-nombre_archivo = 'agenda.txt'
-
-agenda = dict()
-
-
-
-def agregar_contacto(agenda, nombre_archivo):
-    os.system('cls')
-    print('            AGREGAR CONTACTO')
-    nombre = input('Nombre: ')
-    if agenda.get(nombre):
-        print('El contacto ya existe')
-    else:
-        telefono = input('Telefono: ')
-        email = input('Mail: ')
-    # agenda.setdefault(nombre, (telefono, email))
-
-    with open(nombre_archivo, 'a') as archivo:
-        archivo.write(f'nombre:{nombre}\ntelefono:{telefono}\nemail:{email}\n\n')
-    os.system('cls')
-    print('contacto agregado')
-
+def agregar_contacto(nombre,telefono,email):
+        agenda[nombre]=[telefono,email]
+        print(Fore.WHITE + Back.GREEN +'contacto agregado correctamente')
+        diccionario_a_archivo()
 
 
