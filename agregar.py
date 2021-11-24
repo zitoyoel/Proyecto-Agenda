@@ -1,6 +1,6 @@
-from listar import agenda
-from conversiones import diccionario_a_archivo
-from colorama import init, Fore, Back, Style
+from Listar import agenda
+from Conversiones import diccionario_a_archivo
+from colorama import init, Fore, Back
 init(autoreset=True)
 
 def agregar_contacto(nombre,telefono,email):

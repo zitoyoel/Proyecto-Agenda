@@ -1,11 +1,10 @@
-from listar import agenda
-from listar import listar_directorio
-from buscar import buscar_contacto
-from conversiones import (diccionario_a_archivo, archivo_a_diccionario)
-from eliminar import eliminar_contacto
-from modificar import modificar_contacto
-from agregar import agregar_contacto
-from colorama import init, Fore, Back, Style
+from Listar import (agenda,listar_agenda)
+from Buscar import buscar_contacto
+from Conversiones import archivo_a_diccionario
+from Eliminar import eliminar_contacto
+from Modificar import modificar_contacto
+from Agregar import agregar_contacto
+from colorama import init, Fore, Back
 init(autoreset=True)
 
 def menu(): #mostramos el menu de opciones
@@ -29,10 +28,10 @@ def programa():
     while True:
         opcion = menu()
         if opcion == '0':
-            print(Fore.WHITE + Back.RED +'Saliendo del directorio...')
+            print(Fore.WHITE + Back.RED +'Cerrando la agenda...')
             exit()
         elif opcion == '1':
-            listar_directorio()
+            listar_agenda()
         elif opcion == '2':
             nombre = input('\nIngrese el nombre del contacto: ')
             if nombre in agenda.keys():

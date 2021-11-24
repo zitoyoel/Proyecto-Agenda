@@ -1,4 +1,4 @@
-from listar import agenda
+from Listar import agenda
 
 def diccionario_a_archivo():
     nombre_de_archivo = 'agenda.txt'

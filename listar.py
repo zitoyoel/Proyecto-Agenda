@@ -4,7 +4,7 @@ agenda = {} #diccionario vacío
 
 
 
-def listar_directorio():
+def listar_agenda():
     if agenda == {}:
         print(Fore.WHITE + Back.RED +'No tenes ningun contacto en tu agenda')
 #recorremos el diccionario y para cada llave, mostramos llave y valor
