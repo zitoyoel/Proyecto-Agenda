@@ -6,7 +6,7 @@ que se fueron creando, además de agregar nuevos, fijar sus telefonos y emails. 
 también la agenda puede conseguir que agreguemos otros contactos, eliminemos y modifiquemos uno
 ya existente.
 
-### PRECONDICIONES PARA EJECUTAR EL PROYECTO:
+### PRECONDICIONES PARA EJECUTAR EL PROYECTO :computer: :
 - Tener instalado python.
 - Se puede correr desde la consola o un IDE.
 - Instalar el modulo de python COLORAMA de la siguiente manera ---> pip install colorama o Sudo pip install colorama.
