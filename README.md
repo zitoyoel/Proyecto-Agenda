@@ -35,7 +35,7 @@ de un orden alfabético por nombre de contactos.
 -Además para potenciar la utilidad de la agenda creemos óptimo poder agregar uno o mas
 números telefónicos, como por ejemplo uno de uso personal y otro laboral.
 
-### <h2 style= "color: red">INTEGRANTES:<h2>
+<span style="color:orange;">INTEGRANTES:</span>
 - Leandro Marrocchi
 - Yoel Zito
 - Federico Horst
