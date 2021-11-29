@@ -28,6 +28,7 @@ terminal o consola.
 - Además para el mayor conocimiento del contacto agregamos nombre de email dentro de los datos.
 
 ### MEJORAS A FUTURO:
+***
 - Poder insertar contactos, cerrar la consola y al volver a consultar la agenda nos muestre los contactos previamente guardados correctamente y que sobre ellos se puedan realizar cambios.
 - Como idea de mejora a futuro vemos necesario tener una agenda mejor ordenada a través
 de un orden alfabético por nombre de contactos.
