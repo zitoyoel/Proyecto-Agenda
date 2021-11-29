@@ -1,5 +1,5 @@
-## PROYECTO AGENDA :
-:notebook_with_decorative_cover: 
+## PROYECTO AGENDA :notebook_with_decorative_cover: :
+
 - En el poyecto escogimos la propuesta de la agenda ya que nos motivó la idea de tener una
 lista ordenada para futuros contactos. En ella se podrán mostrar todos los contactos
 que se fueron creando, además de agregar nuevos, fijar sus telefonos y emails. Por otro lado
