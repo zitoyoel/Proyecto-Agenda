@@ -28,7 +28,6 @@ terminal o consola.
 - Además para el mayor conocimiento del contacto agregamos nombre de email dentro de los datos.
 
 ### MEJORAS A FUTURO:
-***
 - Poder insertar contactos, cerrar la consola y al volver a consultar la agenda nos muestre los contactos previamente guardados correctamente y que sobre ellos se puedan realizar cambios.
 - Como idea de mejora a futuro vemos necesario tener una agenda mejor ordenada a través
 de un orden alfabético por nombre de contactos.
@@ -41,3 +40,19 @@ números telefónicos, como por ejemplo uno de uso personal y otro laboral.
 - Yoel Zito
 - Federico Horst
 
+## FAQs
+***
+A list of frequently asked questions
+1. **This is a question in bold**
+Answer of the first question with _italic words_. 
+2. __Second question in bold__ 
+To answer this question we use an unordered list:
+* First point
+* Second Point
+* Third point
+3. **Third question in bold**
+Answer of the third question with *italic words*.
+4. **Fourth question in bold**
+| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
+|:--------------|:-------------:|--------------:|
+| text-align left | text-align center | text-align right |
