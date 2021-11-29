@@ -7,10 +7,10 @@ también la agenda puede conseguir que agreguemos otros contactos, eliminemos y 
 ya existente.
 
 ### PRECONDICIONES PARA EJECUTAR EL PROYECTO:
-:red_circle: Tener instalado python.
-:red_circle: Se puede correr desde la consola o un IDE.
-:red_circle: Instalar el modulo de python COLORAMA de la siguiente manera ---> pip install colorama o Sudo pip install colorama.
-:red_circle: Iniciar la Agenda.txt vacia y sin espacios antes de correr el programa.
+- Tener instalado python.
+- Se puede correr desde la consola o un IDE.
+- Instalar el modulo de python COLORAMA de la siguiente manera ---> pip install colorama o Sudo pip install colorama.
+- Iniciar la Agenda.txt vacia y sin espacios antes de correr el programa.
 
 ### LIMITACIONES DE LA SOLUCION :warning: :
 - Una de las limitaciones que hemos encontrado fue que al limpiar la consola los contactos que
