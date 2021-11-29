@@ -32,7 +32,7 @@ terminal o consola.
 - Poder insertar contactos, cerrar la consola y al volver a consultar la agenda nos muestre los contactos previamente guardados correctamente y que sobre ellos se puedan realizar cambios.
 - Como idea de mejora a futuro vemos necesario tener una agenda mejor ordenada a través
 de un orden alfabético por nombre de contactos.
-- Mayor nivel de comprobaciones en los campos.
+-Mayor nivel de comprobaciones en los campos.
 -Además para potenciar la utilidad de la agenda creemos óptimo poder agregar uno o mas
 números telefónicos, como por ejemplo uno de uso personal y otro laboral.
 
