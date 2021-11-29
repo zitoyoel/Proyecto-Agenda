@@ -28,7 +28,7 @@ de manera optima las funciones por eso hemos decidido agregar colores diferencia
 terminal o consola.
 - Además para el mayor conocimiento del contacto agregamos nombre de email dentro de los datos.
 
-### MEJORAS A FUTURO:
+### MEJORAS A FUTURO :muscle: :
 - Poder insertar contactos, cerrar la consola y al volver a consultar la agenda nos muestre los contactos previamente guardados correctamente y que sobre ellos se puedan realizar cambios.
 - Como idea de mejora a futuro vemos necesario tener una agenda mejor ordenada a través
 de un orden alfabético por nombre de contactos.
@@ -36,7 +36,7 @@ de un orden alfabético por nombre de contactos.
 -Además para potenciar la utilidad de la agenda creemos óptimo poder agregar uno o mas
 números telefónicos, como por ejemplo uno de uso personal y otro laboral.
 
-### INTEGRANTES:
+### INTEGRANTES :standing_person: :standing_person: :standing_person: :
 - Leandro Marrocchi
 - Yoel Zito
 - Federico Horst
