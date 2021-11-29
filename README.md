@@ -7,12 +7,12 @@ también la agenda puede conseguir que agreguemos otros contactos, eliminemos y 
 ya existente.
 
 ### PRECONDICIONES PARA EJECUTAR EL PROYECTO:
-- Tener instalado python.
-- Se puede correr desde la consola o un IDE.
-- Instalar el modulo de python COLORAMA de la siguiente manera ---> pip install colorama o Sudo pip install colorama.
-- Iniciar la Agenda.txt vacia y sin espacios antes de correr el programa.
+:red_circle: Tener instalado python.
+:red_circle: Se puede correr desde la consola o un IDE.
+:red_circle: Instalar el modulo de python COLORAMA de la siguiente manera ---> pip install colorama o Sudo pip install colorama.
+:red_circle: Iniciar la Agenda.txt vacia y sin espacios antes de correr el programa.
 
-### LIMITACIONES DE LA SOLUCION:
+### LIMITACIONES DE LA SOLUCION :warning: :
 - Una de las limitaciones que hemos encontrado fue que al limpiar la consola los contactos que
 fueron guardados con anterioridad se muestran con un error en la manera de mostrar los datos.
 - Otra limitación es que al ingresar un número de telefono te permite completar el apartado
@@ -21,7 +21,7 @@ el caso del casillero para completar emails, ya que en el potencial óptimo solo
 agregar datos con formato de correos electrónicos y en nuestra agenda esa limitacion no se
 persibe.
 
-### DECISIONES TOMADAS DURANTE EL DESARROLLO:
+### DECISIONES TOMADAS DURANTE EL DESARROLLO :heavy_check_mark: :
 - Durante el desarrollo del proyecto hemos notado que al ejecutar la agenda no se percibian
 de manera optima las funciones por eso hemos decidido agregar colores diferenciales mediante
 "Colorama" que es un módulo de python que permite imprimir textos en colores en la salida de la
