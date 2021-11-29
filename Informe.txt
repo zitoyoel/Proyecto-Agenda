@@ -35,6 +35,8 @@ de un orden alfabético por nombre de contactos.
 -Además para potenciar la utilidad de la agenda creemos óptimo poder agregar uno o mas
 números telefónicos, como por ejemplo uno de uso personal y otro laboral.
 
+LINK AL REPO: https://github.com/zitoyoel/Proyecto-Agenda
+
 INTEGRANTES:
 - Leandro Marrocchi
 - Yoel Zito
